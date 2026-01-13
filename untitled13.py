@@ -9,7 +9,8 @@ Original file is located at
 
 #!/usr/bin/env python3
 """
-Task 2: Data Exploration (time-domain statistics)
+
+Data Exploration (time-domain statistics)
 
 This script:
 - Iterates over subdirectories (each = one bird species)
