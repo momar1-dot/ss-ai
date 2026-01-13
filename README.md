@@ -1,2 +1,0 @@
-# ss-ai
-school
