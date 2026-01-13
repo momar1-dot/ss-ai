@@ -22,7 +22,6 @@ This script:
   * Min / Max amplitude
 - Prints per-file results and per-class averages
 
-No metadata.csv is used.
 """
 
 from __future__ import annotations
@@ -245,12 +244,3 @@ if source_zip_path.exists():
     print("Kopiëren voltooid.")
 else:
     print(f"{source_zip_path} niet gevonden in Google Drive. Controleer het pad of upload het bestand.")
-
-# Roep de main functie aan om de dataverwerking te starten.
-# Zorg ervoor dat cel cP9E2GR8bUVj al gedefinieerd is (uitgevoerd is).
-main()
-
-# Commented out IPython magic to ensure Python compatibility.
-# Nu het bestand gekopieerd is, kunnen we de oorspronkelijke code opnieuw uitvoeren.
-# De code in de cel cP9E2GR8bUVj zal proberen dit zojuist gekopieerde bestand uit te pakken en de dataset te laden.
-# %rerun -p cP9E2GR8bUVj
