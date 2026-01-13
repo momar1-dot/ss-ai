@@ -251,7 +251,7 @@ This script:
 - Loads audio files directly from disk
 - Applies an FIR filter bank to reduce environmental noise
 
-Filter design (from scratch, no DSP libraries):
+Filter design:
 - Windowed-sinc FIR low-pass:
     h_lp[n] = 2fc * sinc(2fc(n-M)) * w[n]
   where fc is normalized cutoff (cutoff_hz / sample_rate),
